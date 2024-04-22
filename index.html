@@ -2,13 +2,26 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWTKM8EGQD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-SWTKM8EGQD');
+    </script>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iLegal Software</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Styles/Styles.css">
 </head>
@@ -20,87 +33,131 @@
                 <img src="Img/logo.svg" width="35" height="35" class="d-inline-block align-top" alt="">
                 iLegal software
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse pt-2" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto navbar-custom">
                     <li class="nav-item active">
-                        <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link " href="#"><span class="sr-only">| </span>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Produkt</a>
+                        <a class="nav-link" href="Product.html">O Produktu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Licence</a>
+                        <a class="nav-link" href="License.html">Licence</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Reference</a>
+                        <a class="nav-link" href="Reference.html">Reference</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Novinky</a>
+                        <a class="nav-link" href="News.html">Novinky</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">O nás</a>
+                        <a class="nav-link" href="AboutUs.html">O nás</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <div class="color-space"></div>
     </header>
-    <div class="container-fluid body-bg-image" style="height: 60vh;">
-        <h1 class="display-1 text-right pt-20 pr-5">Digitalizujeme právo</h1>
+    <div class="container container-standard body-bg-image" style="height: 60vh;">
+        <h1 class="display-1 nextfont-large text-end pt-17 pr-5">Digitalizujeme právo</h1>
+        <h2 class="lead font-size24 text-end pr-5" style="margin-right: 1.78em;">pro advokátní kanceláře a in-house
+            právníky</h1>
     </div>
     <div class="container">
-        <h3 class="display-3 pt-10 text-center">iLegal system - nástroj pro digitalizaci práva</h3>
+        <h3 class="display-3 nextfont pt-10 text-center" style="font-size: xxx-large;">iLegal system - nástroj pro
+            digitalizaci práva</h3>
     </div>
-    <div class="container" style="width: 100vh;">
+    <div class="container" style="max-width: 100vh;">
         <p class="text-color-purple text-center" style="font-style: oblique;">
-            Nabízíme osvědčenou metodiku, jak řídit životní cyklus smluv a práce, jak zautomatizovat rutinní činnosti a jak efektivně 
-            řídit jakýkoli případ. Začněte pracovat s unikátním konceptem úkolů. Pomocí úkolů můžete řídit činnosti a spolupráci s kolegy právníky ať už jste kdekoli.
+            Nabízíme osvědčenou metodiku, jak řídit životní cyklus smluv a práce, jak zautomatizovat rutinní činnosti a
+            jak efektivně
+            řídit jakýkoli případ. Začněte pracovat s unikátním konceptem úkolů. Pomocí úkolů můžete řídit činnosti a
+            spolupráci s kolegy právníky ať už jste kdekoli.
             Zvýší se efektivita přidělování práce a úkolů, jelikož to vše bude celé automatizované
-            Nepotřebujete vlastní server a složitou údržbu, nabízíme vám hosting v zabezpečeném cloudu. 
+            Nepotřebujete vlastní server a složitou údržbu, nabízíme vám hosting v zabezpečeném cloudu.
         </p>
-        <ul class="list-group-flush bg-transparent text-center">
-            <li class="list-group-item lead">Systém pro advokátní kanceláře a firemní legal oddělení</li>
-            <li class="list-group-item lead ">Digitální archiv a DMS pro lepší a snadnější správu dokumentů.</li>
-            <li class="list-group-item lead">Napojení na Českou poštu, datové schránky, emaily a další...</li>
-            <li class="list-group-item lead">Procesní workflow, předávání a kontrola práce</li>
-          </ul>
+        <h3 class="nextfont pt-10 text-center" style="font-weight: 700;">Proč iLegal system® ?</h3>
+
     </div>
-    <div class="container">
-        <h3 class="display-3 pt-10 text-center">Tohle vše iLegal system umí</h3>
-    </div>
-    <div class="container">
-        <div class="h-100 d-flex-row justify-content-center align-items-center pt-10">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title display-4 text-center">Konec papírování</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="card m-3 border-light" style="width: 20rem; border-radius: 0%;">
+                    <img src="Img/carousel_legal.jpg" style="max-height: 267px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title nextfont-large">Vhodný pro</h5>
+                        <p class="card-text">advokátní kanceláře a firemní legal oddělení</p>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title display-4 text-center">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+            <div class="col">
+                <div class="card m-3 border-light" style="width: 20rem;">
+                    <img src="Img/carousel_dms.JPG" style="max-height: 267px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title nextfont-large">DMS a archivace</h5>
+                        <p class="card-text">Systém poskytuje námi vyvinuté DMS s archivací</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card m-3 border-light" style="width: 20rem;">
+                    <img src="Img/carousel_post.JPG" style="max-height: 267px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title nextfont-large">Konektivita</h5>
+                        <p class="card-text">napojeno na Českou poštu, datovku, právní služby a další...</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="container">
+        <h3 class="nextfont pt-10 text-center" style="font-weight: 700;">Tohle vše iLegal system® umí:</h3>
+    </div>
+    <div class="container overflow-hidden text-center">
+        <div class="row">
+            <div class="col m-3 box-iconed ">
+                <div class="lead nextfont-large text-highlight">Zrychlí práce s dokumenty</div>
+                <img src="Img/document_icon.png" style="max-width: 10vh;">
+                <div class="lead nextfont">Elektronické podepisování a workflow nikdy nebylo rychlejší!<br> Bude-li
+                    nějaký dokument k podpisu, systém vám dá ihned vědět!</div>
+            </div>
+            <div class="col m-3 box-iconed">
+                <div class="lead nextfont-large text-highlight">Je modulární</div>
+                <img src="Img/tetris_icon.png" style="max-width: 10vh;">
+                <div class="lead nextfont">Objednejte si jen ty moduly a součásti, které vám vyhovují, a neplaťte nic
+                    navíc, za něco zbytečně robustního.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m-3 box-iconed">
+                <div class="lead nextfont-large text-highlight">Přístupný odkudkoliv</div>
+                <img src="Img/key_icon.png" style="max-width: 10vh;">
+                <div class="lead nextfont">Systém je webová aplikace, která je nasazena v cloudu, se svými přístupy se
+                    do něj dostanete z pohodlí domova i ze zahraničí.</div>
+            </div>
+            <div class="col m-3 box-iconed">
+                <div class="lead nextfont-large text-highlight">Šetří čas a peníze</div>
+                <img src="Img/clock_icon.png" style="max-width: 10vh;">
+                <div class="lead nextfont">Zrychluje všechny potřebné procesy a workflow, tedy máte čas pracovat hned na
+                    něčem dalším, a neztrácet čas a peníze.</div>
+            </div>
+        </div>
+    </div>
     <footer>
-        <div class="color-space-footer"></div>
+        <div class="color-space-footer text-center">
+            <p class="pt-6" style="color: white;">© Lukáš Vachtarčík. Všechna práva na obsah vyhrazena. Loga a jména
+                produktů jsou mým a jen mým majetkem ! Kontakt: XXX YYY XXX</p>
+        </div>
     </footer>
-    <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

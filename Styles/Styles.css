@@ -1,17 +1,13 @@
-.banner{
-
-}
-
-.background-blue-light{
+.background-blue-light {
     background-color: #6002EE
 }
 
-.text-color-purple{
+.text-color-purple {
     color: #6002EE;
     font-weight: 600;
 }
 
-.text-white{
+.text-white {
     color: white;
 }
 
@@ -22,38 +18,64 @@
 .navbar-light .navbar-brand a {
     text-shadow: 1px 1px 5px black;
 }
-.color-space{
+
+.color-space {
     background-color: #5300e8;
     width: 100%;
     height: 1vh;
 }
-.color-space-footer{
+
+.color-space-footer {
     background-color: #5300e8;
     width: 100%;
     height: 10vh;
 }
-.bg-image{
-background-image: url("../Img/background.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed; 
-background-size: 100% 100%;
+
+.bg-image {
+    background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.5)),url("../Img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
-.body-bg-image{
-background-image: url("../Img/body_bg.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+@media (width >1000px) {
+    .body-bg-image {
+        background-image: url("../Img/body_bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    } 
 }
 
-.pt-20{
+@media (width <=1000px) {
+    .body-bg-image {
+        background-image: url("../Img/body_bg_small.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+    }
+}
+
+.pt-17 {
+    padding-top: 17vh;
+}
+
+.pt-20 {
     padding-top: 20vh;
 }
-.pt-10{
+
+.pt-10 {
     padding-top: 10vh;
 }
-.pl-30{
+
+.pt-6 {
+    padding-top: 6vh;
+}
+
+.pl-30 {
     margin-left: 30vh;
 }
+
 .list-group-item {
     background-color: transparent;
     border-top: 1px solid #ddd;
@@ -61,4 +83,44 @@ background-size: cover;
     color: black;
 
     font-weight: 700;
-    }
+}
+
+.font-size24 {
+    font-size: 2.4rem;
+}
+
+.navbar-custom .nav-link:hover {
+    color: black;
+}
+
+.navbar-custom .nav-link {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.nextfont {
+    font-family: 'WGrotesk Black', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 400;
+}
+
+.nextfont-large {
+    font-family: 'WGrotesk Black', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+}
+
+.container-standard {
+    max-width: 1920px;
+}
+
+.properties-box {
+    height: 20vh;
+    max-height: 20vh;
+}
+
+.box-iconed {
+    background-color: #e3e6ea56;
+}
+
+.text-highlight{
+    color: #f71958;
+}
