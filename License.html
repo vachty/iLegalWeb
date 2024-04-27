@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +14,10 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Styles/Styles.css">
+    <script src="Scripts/lazyload.js"></script>
 </head>
-<body>
+
+<body class="bg-image-secondary">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light background-blue-light">
             <a class="navbar-brand ml-3 text-white pt-3" href="#">
@@ -51,6 +54,107 @@
             </div>
         </nav>
     </header>
+    <div class="container container-standard body-bg-image" style="height: 60vh; max-width: 70vw;">
+        <h1 class="display-1 nextfont-large text-center pt-17 pr-5">Licence</h1>
+    </div>
+    <div class="container text-center justify-content-center" style="background-color: white; max-width: 70vw;">
+        <h1 class="display-4 p-5">Pořiďte a integrujte iLegal system <b>snadno a rychle</b></h1>
+        <p class="lead nextfont ">Systém jsme vyvinuli tak, aby jej mohlo používat co nejširší spektrum legal oddělení a
+            advokátek.
+            Celý proces je rychlý, bez zbytečné byrokracie.
+            Máme transparentní cenovou politiku, nenutíme vás do dlouhodobých závazků a řešení s licencí si můžete
+            vybrat, takové, které se Vám nejvíce hodí.</p>
+        <h2 class="display-6 pt-5 nextfont">Začněte zde</h2>
+        <img class="lazy pt-3" data-src="Img\arrow.png" src="blank" alt="..." style="max-width: 3rem;">
+        <h3 class="pt-3">Vyberte si, jaké moduly chcete integrovat</h3>
+        <div class="container text-start" style="max-width: 40%;">
+            <p class="lead fs-6 ">
+                Na schůzce (osobní, telefonické či přes videohovor) s naším obchodníkem si vyberete,
+                které moduly chcete využívat. Určíte si počet uživatelů,
+                preferovaný cenový model a další podrobnosti. Cenovou nabídku dostanete ihned a produkt si
+                můžete zdarma vyzkoušet.
+            </p>
+        </div>
+        <img class="lazy pt-3" data-src="Img\arrow.png" src="blank" alt="..." style="max-width: 3rem;">
+        <h3 class="pt-3">Vyberte licenci, která vám sedí</h3>
+        <div class="container text-start" style="max-width: 40%;">
+            <p class="lead fs-6 ">
+                Vyberte si jednu z námi nabízených licencí - <a href="#licence">zde</a> která Vám sedí nejlépe. V rámci licence je všechno
+                ostatní
+                vyřešené a zaplacené - nemusíte tedy řešit žádné další poplatky.
+            </p>
+        </div>
+        <img class="lazy pt-3" data-src="Img\arrow.png" src="blank" alt="..." style="max-width: 3rem;">
+        <h3 class="pt-3">Podepište objednávku</h3>
+        <div class="container text-start" style="max-width: 40%;">
+            <p class="lead fs-6 ">
+                Pokud se vám produkt bude líbit,vyřídíme rychle všechny formality. Pro cloud není třeba
+                podepisovat žádné složité smlouvy. Stačí akceptovat jednoduchou a transparentní cenovou nabídku
+                s odkazem na obchodní podmínky. Umožňujeme platby měsíčně podle počtu uživatelů bez dlouhodobých
+                závazků, ale i jednorázové pořízení softwaru.
+            </p>
+        </div>
+        <img class="lazy pt-3" data-src="Img\arrow.png" src="blank" alt="..." style="max-width: 3rem;">
+        <h3 class="pt-3">Dohodněte termín nasazení a zaškolení</h3>
+        <div class="container text-start" style="max-width: 40%;">
+            <p class="lead fs-6 ">
+                Nastavíme vám produkt přesně podle vašich potřeb a organizační struktury firmy.
+                Toto nastavení a zaškolení uživatelů je součástí měsíčních poplatků a provedou ho naši zkušení
+                konzultanti.
+            </p>
+        </div>
+        <div class="container text-start pt-10 p-5" style="max-width: 70%;" id="licence">
+            <h3>Seznam licencí</h3>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Licence</th>
+                        <th scope="col">Moduly</th>
+                        <th scope="col">Délka</th>
+                        <th scope="col">24/7 Support</th>
+                        <th scope="col">Integrace s 3rd party systémy</th>
+                        <th scope="col">Cena (Kč)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Basic</td>
+                        <td>Dle výběru</td>
+                        <td>Měsíc</td>
+                        <td>Ne</td>
+                        <td>Ne</td>
+                        <td>10000,- </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Full</td>
+                        <td>Dle výběru</td>
+                        <td>Měsíc</td>
+                        <td>Ano</td>
+                        <td>Ne</td>
+                        <td>15000,- </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Ultra</td>
+                        <td>Všechny</td>
+                        <td>Rok</td>
+                        <td>Ano</td>
+                        <td>Ano</td>
+                        <td>50000,- </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <div class="color-space-footer text-center mt-5">
+            <p class="pt-6" style="color: white;">© Lukáš Vachtarčík. Všechna práva na obsah vyhrazena. Loga a jména
+                produktů jsou mým a jen mým majetkem ! Kontakt: XXX YYY XXX</p>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

@@ -56,6 +56,24 @@
     }
 }
 
+@media (width >1000px) {
+    .body-bg-image-company {
+        background-image: url("../Img/company_building.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    } 
+}
+
+@media (width <=1000px) {
+    .body-bg-image-company {
+        background-image: url("../Img/company_building.jpg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+    }
+}
+
 .pt-17 {
     padding-top: 17vh;
 }
@@ -124,3 +142,26 @@
 .text-highlight{
     color: #f71958;
 }
+
+.bg-image-secondary{
+    background-image: url("../Img/background_prpl.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.pr-3rem{
+    padding-right: 3.7rem;
+}
+
+.img-thumbnail {
+    border: 1px solid #ddd; 
+    border-radius: 4px;  
+    padding: 5px; 
+    max-width: 150px; 
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  .img-thumbnail:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
