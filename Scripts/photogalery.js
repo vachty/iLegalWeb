@@ -1,7 +1,1 @@
-function gallery(imgs) {
-
-    var expandImg = document.getElementById("expandedImg");
-
-    expandImg.src = imgs.src;
-    expandImg.parentElement.style.display = "block";
-  }
+function gallery(e){var l=document.getElementById("expandedImg");l.src=e.src,l.parentElement.style.display="block"}
